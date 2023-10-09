@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Alura Geek</title>
+        <!-- Agregar Font Awesome -->
+
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Raleway:wght@500;700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="estilos-agregar-producto.css" />
+        <link rel="stylesheet" href="pie-de-pagina-productos.css" />
+    </head>
+    <body>
+        <!-- Barra de navegación -->
+        <nav class="nav_agregar_producto">
+            <!-- Logo en la esquina superior izquierda -->
+            <div class="icono-busqueda">
+                <div class="logo">
+                    <img
+                        src="/img/favicon.ico"
+                        alt="Logo"
+                        width="50"
+                        height="50"
+                    />
+                    <span>Alura<span class="color_a">Geek</span> </span>
+                </div>
+                <!-- Barra de búsqueda de artículos -->
+                <div class="search-bar">
+                    <!-- Icono de búsqueda de Font Awesome -->
+                    <i class="fas fa-search search-icon"></i>
+                    <input
+                        type="text"
+                        class="search-bar"
+                        placeholder="¿Que deseas buscar?"
+                    />
+                </div>
+            </div>
+            <button class="agregar_producto-btn">Menú Administrador</button>
+        </nav>
+
+        <section class="agregar_producto">
+            <form class="datos_agregar_producto" onsubmit="">
+                <h2>Editar producto</h2>
+                <input
+                    type="url"
+                    id="urlInput"
+                    name="urlImagen"
+                    placeholder="URL de la imagen"
+                />
+                <select name="categoriaId" id="categoria" class="categoria_a">
+                    <option value="categoria">Seleccione una Categoria</option>
+                </select>
+                <input
+                    type="text"
+                    class="nombre_producto"
+                    placeholder="Nombre del producto"
+                    name="nombre"
+                />
+                <input
+                    type="number"
+                    class="precio_producto"
+                    name="precio"
+                    id=""
+                    placeholder="Precio del producto"
+                />
+                <input
+                    type="text"
+                    class="descripcion_producto"
+                    id=""
+                    name="descripcion"
+                    placeholder="Descripcion del producto"
+                />
+
+                <button type="submit" class="boton_agregar">
+                    Editar producto
+                </button>
+            </form>
+        </section>
+
+        <footer class="footer-section-producto">
+            <!-- Logotipo en la parte superior izquierda -->
+
+            <div class="footer-logo-producto">
+                <img src="/img/favicon.ico" alt="Logo" width="50" height="50" />
+                <span>Alura<span class="color_a">Geek</span> </span>
+            </div>
+
+            <!-- Etiquetas en la parte central -->
+            <div class="footer-links-producto">
+                <a href="#" class="footer-link-producto">Quienes Somos</a>
+                <a href="#" class="footer-link-producto"
+                    >Política de privacidad</a
+                >
+                <a href="#" class="footer-link-producto"
+                    >Programa de fidelidad</a
+                >
+                <a href="#" class="footer-link-producto">Nuestras Tiendas</a>
+                <a href="#" class="footer-link-producto"
+                    >Quiero ser franquiciado</a
+                >
+                <a href="#" class="footer-link-producto">Anuncie aquí</a>
+            </div>
+
+            <!-- Formulario de contacto en la parte superior derecha -->
+            <div class="contact-form-producto">
+                <h2>Hable con nosotros</h2>
+                <input
+                    type="text"
+                    class="input-nombre-producto"
+                    placeholder="Nombre"
+                />
+                <textarea
+                    class="textarea-mensaje-producto"
+                    placeholder="Escribe tu mensaje"
+                ></textarea>
+                <button type="submit">Enviar Mensaje</button>
+            </div>
+        </footer>
+
+        <div class="desarrollador-producto">
+            <h3>Desarrollado por Rubiela Cifuentes Ruiz</h3>
+            <h3>2023</h3>
+        </div>
+        <script type="module" src="./js/consultar-categorias.js"></script>
+        <script type="module" src="./js/editar-producto.js"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    </body>
+</html>

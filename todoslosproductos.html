@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Alura Geek</title>
+        <!-- Agregar Font Awesome -->
+        
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Raleway:wght@500;700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="estilos-nav.css" />
+        <link rel="stylesheet" href="header-estilos.css" />
+        <link rel="stylesheet" href="estilos-index.css" />
+        <link rel="stylesheet" href="pie-de-pagina-superior.css" />
+        <link rel="stylesheet" href="pie-de-pagina-inferior.css" />
+        <link rel="stylesheet" href="estilos-nav-productos.css">
+        <link rel="stylesheet" href="estilos-todoslosproductos.css">
+    </head>
+
+    <body>
+        <!-- Barra de navegación -->
+        <nav class="nav_producto">
+            <!-- Logo en la esquina superior izquierda -->
+            <div class="icono-busqueda">
+                <div class="logo">
+                    <img
+                        src="/img/favicon.ico"
+                        alt="Logo"
+                        width="50"
+                        height="50"
+                    />
+                    <span>Alura<span class="color_a">Geek</span> </span>
+                </div>
+                <!-- Barra de búsqueda de artículos -->
+                <div class="search-bar">
+                    <!-- Icono de búsqueda de Font Awesome -->
+                    <i class="fas fa-search search-icon"></i>
+                    <input
+                        type="text"
+                        class="search-bar"
+                        placeholder="¿Que deseas buscar?"
+                    />
+                </div>
+            </div>
+           
+        </nav>
+        <div class="titulo_tododlosproductos"><h1>Todos los productos</h1>
+            <a href="agregar-producto.html" class="agregarproductos-btn">Agregar productos</a> 
+           
+        </div>
+       
+        <footer class="footer-section">
+            <!-- Logotipo en la parte superior izquierda -->
+
+            <div class="footer-logo">
+                <img src="/img/favicon.ico" alt="Logo" width="50" height="50" />
+                <span>Alura<span class="color_a">Geek</span> </span>
+            </div>
+
+            <!-- Etiquetas en la parte central -->
+            <div class="footer-links">
+                <a href="#" class="footer-link">Quienes Somos</a>
+                <a href="#" class="footer-link">Política de privacidad</a>
+                <a href="#" class="footer-link">Programa de fidelidad</a>
+                <a href="#" class="footer-link">Nuestras Tiendas</a>
+                <a href="#" class="footer-link">Quiero ser franquiciado</a>
+                <a href="#" class="footer-link">Anuncie aquí</a>
+            </div>
+
+            <!-- Formulario de contacto en la parte superior derecha -->
+            <div class="contact-form">
+                <h2>Hable con nosotros</h2>
+                <input type="text" class="input-nombre" placeholder="Nombre" />
+                <textarea
+                    class="textarea-mensaje"
+                    placeholder="Escribe tu mensaje"
+                ></textarea>
+                <button type="submit">Enviar Mensaje</button>
+            </div>
+            <!-- En admin.html -->
+               <button id="cerrar-sesion">Cerrar Sesión</button>
+
+        </footer>
+        <button id="back-to-index" style="display: none;">Volver al inicio</button>
+        <div class="desarrollador">
+            <h3>Desarrollado por Rubiela Cifuentes Ruiz</h3>
+            <h3>2023</h3>
+            
+        </div>
+        <script>
+            function enviarProducto(idProducto) {
+              window.location.href = `editarProducto.html?id=${idProducto}`;
+            }
+          </script>
+       
+        <script type= "module" src="./js/todoslosproductos.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+       
+    </body>
+</html>

@@ -1,0 +1,84 @@
+:root{
+    /* Inserta la variable de los otros colores inspeccionando el exemplo de figma */
+    /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
+   --color-principal:#2A7AE4;
+   --color-logo-b:#0d0d0e;
+}
+/* Estilos CSS para el navbar */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos para el contenedor del navbar */
+nav {
+    background-color: #f7f3f3;
+    color:var(--color-principal);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+.color_a {
+    color:var(--color-logo-b);
+}
+
+/* Estilos para el logo */
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 32px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.icono-busqueda {
+    display: flex;
+    align-items: center;
+}
+
+/* Estilos para la barra de búsqueda */
+.search-bar {
+    width: 400px; 
+    height: 30px; 
+    margin: 0 40px;
+    border: none;
+    outline: none;
+    position: relative;
+    font-size: 15px;
+    color: #2960b2;
+}
+.search-bar::placeholder {
+    color: #d0cece; /* Cambiar el color del placeholder */
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+/* Estilos para el icono de búsqueda */
+.search-icon {
+    position: absolute;
+    top: 20%;
+    left: 320px;
+    z-index: 2;
+    color: #d0cece;
+}
+
+/* Estilos para el botón de login */
+.login-btn {
+    background-color: #ebeef2;
+    color:var(--color-principal);
+    font-size: 16px;
+    border: 2px solid var(--color-principal);
+    width: 182px;
+    height: 51px;
+    padding: 16px;
+    gap: 10px;
+
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+}

@@ -1,0 +1,56 @@
+:root{
+    /* Inserta la variable de los otros colores inspeccionando el exemplo de figma */
+    /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
+   --color-principal:#2A7AE4;
+   --color-logo-b:#0d0d0e;
+}
+body {
+    font-family: 'Raleway';
+  }
+.producto-card{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 80%;
+    margin-left: 9rem;
+    margin-top: 50px;
+}
+.color_a{
+    color:var(--color-logo-b);
+}
+.footer-logo-producto .color_b{
+    color:var(--color-logo-b);
+}
+
+.product-name{
+    font-size: 52px;
+}
+p{
+   margin-right: 5rem;
+}
+.dimensiones-cart{
+    width: 250px;
+    flex-direction: column;
+}
+.dimensiones-cart img{
+  max-width: 100%;
+  height: auto; /* Para mantener la proporción original de la imagen */
+}
+.color-ver-producto{
+ color: var(--color-principal);
+ font-weight: bold;
+}
+.card-productos-similares{
+    margin: 50px 145px 0px 145px;
+}
+.contengo-todas-la-tarjetas{
+    display: flex;
+    gap: 30px;
+    font-size: 16px;
+
+}
+.separacion-tex{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

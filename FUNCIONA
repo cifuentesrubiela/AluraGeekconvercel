@@ -1,0 +1,11 @@
+SE AbRE UNA TERMINAL Y SE DIGITA EL COMANDO json-server --watch db.json --port 3000 PARA LEVANTAR EL json-server que simula un backend
+
+PARA LEVANTAR EL FRONTEND ES CON LA EXTENSION LiveServer se da clic en Go Live
+
+
+Y DEBE ESTAR INSTALADO NODE MODULES Y SI NO SE INSTALA DANDO EL COMANDO npm i o npm install
+
+debe estar instalado Node.js
+
+
+

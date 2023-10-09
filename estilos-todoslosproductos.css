@@ -1,0 +1,71 @@
+body {
+    font-family: "Raleway";
+}
+.titulo_tododlosproductos {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+.agregarproductos-btn {
+    margin-right: 40px;
+    padding: 10px 20px;
+    background-color: var(--color-principal); /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    text-decoration: none;
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.agregarproductos-btn:hover {
+    background-color: #45a049; /* Color de fondo del botón al pasar el cursor */
+}
+
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.product-card {
+    width: 200px;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+/* Estilos para la imagen del producto */
+.product-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Estilos para el nombre del producto */
+.product-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Estilos para el precio del producto */
+.product-price {
+    font-size: 16px;
+    color: #888;
+}
+
+/* Estilos para el enlace de detalle del producto */
+.product-link {
+    display: block;
+    margin-top: 15px;
+    background-color: #007bff;
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.product-link:hover {
+    background-color: #11d74c;
+}

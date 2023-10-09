@@ -1,0 +1,104 @@
+:root{
+    /* Inserta la variable de los otros colores inspeccionando el exemplo de figma */
+    /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
+   --color-principal:#2A7AE4;
+   --color-logo-b:#0d0d0e;
+}
+.nav_agregar_producto {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 145px;
+    margin-right: 120px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 32px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.icono-busqueda {
+    display: flex;
+    align-items: center;
+}
+
+/* Estilos para la barra de búsqueda */
+.search-bar {
+    width: 400px; 
+    height: 30px; 
+    margin: 0 40px;
+    border: none;
+    outline: none;
+    position: relative;
+    font-size: 15px;
+    color: #2960b2;
+}
+.search-bar::placeholder {
+    color: #d0cece; /* Cambiar el color del placeholder */
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+/* Estilos para el icono de búsqueda */
+.search-icon {
+    position: absolute;
+    top: 20%;
+    left: 320px;
+    z-index: 2;
+    color: #d0cece;
+}
+.datos_agregar_producto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.agregar_producto-btn {
+    background-color: #ebeef2;
+    color:var(--color-principal);
+    font-size: 16px;
+    border: 2px solid var(--color-principal);
+    width: 182px;
+    height: 51px;
+    padding: 16px;
+    gap: 10px;
+
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.datos_agregar_producto .nombre_producto, .datos_agregar_producto .precio_producto,.datos_agregar_producto .descripcion_producto,
+.datos_agregar_producto .input-password,.datos_agregar_producto #urlInput,.datos_agregar_producto #categoria{
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 410px;
+    border: none;
+    outline: none;
+}
+
+.input-correo,
+.input-password,#urlInput,#categoria,.nombre_producto,.precio_producto,.descripcion_producto {
+    box-shadow: 0px 2px 0px 0px #ccc;
+    resize: none;
+}
+ .precio_producto {
+
+   margin-bottom: 200px; 
+}
+.datos_agregar_producto .boton_agregar {
+    width: 423px;
+    height: 62px;
+    padding: 8px 15px;
+    background-color: var(--color-principal);
+    font-size: 18px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}

@@ -1,0 +1,482 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "nombre": "admin",
+      "correo": "usuario1@example.com",
+      "contrasena": "123",
+      "rol": "admin"
+    },
+    {
+      "id": 2,
+      "nombre": "usuario",
+      "correo": "usuario2@example.com",
+      "contrasena": "456",
+      "rol": "usuario"
+    }
+  ],
+  "categorias": [
+    {
+      "id": 1,
+      "nombre": "PIJAMAS DAMA"
+    },
+    {
+      "id": 2,
+      "nombre": "PIJAMAS NIÑA"
+    },
+    {
+      "id": 3,
+      "nombre": "PIJAMAS HOMBRE"
+    },
+    {
+      "id": 4,
+      "nombre": "PIJAMAS NIÑO"
+    }
+  ],
+  "productos": [
+    {
+      "urlImagen": "https://i.ebayimg.com/images/g/MvsAAOSwpb9kDWhF/s-l1600.jpg",
+      "categoriaId": "1",
+      "nombre": "yoda mil años",
+      "precio": 10000,
+      "descripcion": "descripcion",
+      "id": 6
+    },
+    {
+      "urlImagen": "https://pepeganga.vtexassets.com/arquivos/ids/591673/29811202-1.jpg?v=1776187180",
+      "categoriaId": "1",
+      "nombre": "negro",
+      "precio": 12,
+      "descripcion": "descripcion",
+      "id": 8
+    },
+    {
+      "urlImagen": "https://m.media-amazon.com/images/I/41+3spLgt2L.jpg",
+      "categoriaId": "1",
+      "nombre": "piloto bueno",
+      "precio": 2300,
+      "descripcion": "descripcion",
+      "id": 9
+    },
+    {
+      "urlImagen": "https://m.media-amazon.com/images/I/71ccLo493ML._AC_UF894,1000_QL80_.jpg",
+      "categoriaId": "1",
+      "nombre": "guerrero5",
+      "precio": 233435,
+      "descripcion": "bcvbcbc",
+      "id": 10
+    },
+    {
+      "urlImagen": "https://hips.hearstapps.com/hmg-prod/images/star-wars-protagonistas-1554408382.jpg?crop=1xw:0.75xh;center,top&resize=1200:*",
+      "categoriaId": "1",
+      "nombre": "yoda4",
+      "precio": 34567,
+      "descripcion": "descripcion",
+      "id": 11
+    },
+    {
+      "urlImagen": "https://hips.hearstapps.com/hmg-prod/images/han-solo-una-historia-de-star-wars-1575448990.jpg",
+      "categoriaId": "2",
+      "nombre": "pepito2000",
+      "precio": 345346547,
+      "descripcion": "cesxripcion",
+      "id": 13
+    },
+    {
+      "urlImagen": "https://i0.wp.com/imgs.hipertextual.com/wp-content/uploads/2023/04/mandalorian-rey-star-wars-scaled.jpg?fit=1200%2C800&quality=50&strip=all&ssl=1",
+      "categoriaId": "2",
+      "nombre": "pepe tonto 234",
+      "precio": 546456467,
+      "descripcion": "gvbngn",
+      "id": 14
+    },
+    {
+      "urlImagen": "https://img.freepik.com/vector-premium/muneco-nieve-navideno-ojos-lindos-sombrero-mago-lindo-muneco-nieve-sobre-fondo-nieve-cayendo-diseno-muneco-nieve-navideno-ramas-arboles-botones-nariz-zanahoria-panuelo-cuello-cara-sonriente_538213-59.jpg?w=2000",
+      "categoriaId": "2",
+      "nombre": "muñeco de nieve",
+      "precio": "77777777",
+      "descripcion": "muy frio",
+      "id": 23
+    },
+    {
+      "urlImagen": "https://pngimg.es/d/snowman_PNG9938.png",
+      "categoriaId": "1",
+      "nombre": "muñeco de nieve100",
+      "precio": 2000,
+      "descripcion": "descripcion",
+      "id": 25
+    },
+    {
+      "urlImagen": "https://i.pinimg.com/736x/71/45/94/714594d09d6c0a02075c71b707b81450.jpg",
+      "categoria": 0,
+      "nombre": "muñeco de nieve verde muy verde",
+      "precio": "2000",
+      "descripcion": "descripcion",
+      "id": 28
+    },
+    {
+      "urlImagen": "https://img.freepik.com/vector-gratis/muneco-nieve-bufanda-roja-cuernos-ciervo_1308-120817.jpg?w=2000",
+      "categoria": 0,
+      "nombre": "blanco",
+      "precio": "2345",
+      "descripcion": "vfdgdfgdf",
+      "id": 30
+    },
+    {
+      "urlImagen": "https://images2.imgbox.com/fa/2b/CjvPhNWa_o.jpg",
+      "categoriaId": 1,
+      "nombre": "Conjunto de pijama Invierno en Franela",
+      "precio": "45000",
+      "descripcion": "Tela en algodón para Invierno",
+      "id": 31
+    },
+    {
+      "urlImagen": "https://images2.imgbox.com/e2/37/uDz1DOyU_o.jpg",
+      "categoriaId": 1,
+      "nombre": "Pijama dibujos animados",
+      "precio": "100000",
+      "descripcion": "Pijama para Primavera",
+      "id": 32
+    },
+    {
+      "urlImagen": "https://images2.imgbox.com/45/dd/03gx4e5r_o.jpg",
+      "categoriaId": 2,
+      "nombre": "Pijama peluche",
+      "precio": "82000",
+      "descripcion": "Para el invierno y días muy fríos",
+      "id": 33
+    },
+    {
+      "urlImagen": "https://images2.imgbox.com/03/f0/c0KjtrND_o.jpg",
+      "categoriaId": 2,
+      "nombre": "Pijama Ovejita",
+      "precio": "97000",
+      "descripcion": "para el invierno y días muy fríos",
+      "id": 34
+    },
+    {
+      "urlImagen": "https://images2.imgbox.com/d7/56/F0JNR8iA_o.jpg",
+      "categoriaId": 2,
+      "nombre": "Pijamas Huellas",
+      "precio": "79000",
+      "descripcion": "Para fríos muy intensos",
+      "id": 36
+    },
+    {
+      "urlImagen": "https://images2.imgbox.com/42/38/mfZcKLii_o.jpg",
+      "categoriaId": 2,
+      "nombre": "Pijama Rosa",
+      "precio": "56000",
+      "descripcion": "Para el verano",
+      "id": 37
+    },
+    {
+      "urlImagen": "https://images2.imgbox.com/62/0d/UU3kWk8F_o.jpg",
+      "categoriaId": 1,
+      "nombre": "Pijama cafe pantalo a cuadros",
+      "precio": "89000",
+      "descripcion": "Para trabajar en casa",
+      "id": 38
+    },
+    {
+      "urlImagen": "https://images2.imgbox.com/d2/2a/PMRzFTfd_o.jpg",
+      "categoriaId": 3,
+      "nombre": "Pijama verde Gozilita",
+      "precio": "89000",
+      "descripcion": "Para el invierno",
+      "id": 39
+    },
+    {
+      "urlImagen": "https://images2.imgbox.com/c3/0b/6Hb9zNOP_o.jpg",
+      "categoriaId": 3,
+      "nombre": "Pijamas Gris  oso ",
+      "precio": "67000",
+      "descripcion": "Para el verano franela",
+      "id": 40
+    },
+    {
+      "urlImagen": "https://images2.imgbox.com/0c/0c/bD7OUwpV_o.jpg",
+      "categoriaId": 3,
+      "nombre": "Pijama cuadros Oao del felpa",
+      "precio": "90000",
+      "descripcion": "Para dias muy calurosos",
+      "id": 41
+    },
+    {
+      "urlImagen": "https://images2.imgbox.com/59/dc/aRbSNpNu_o.jpg",
+      "categoriaId": 3,
+      "nombre": "Pijama Gozila verde con beige",
+      "precio": "78000",
+      "descripcion": "Para el verano",
+      "id": 42
+    },
+    {
+      "urlImagen": "https://images2.imgbox.com/d0/46/kj0uVJPJ_o.jpg",
+      "categoriaId": 3,
+      "nombre": "Pijama arco Iris Amarilla Felpa",
+      "precio": "89000",
+      "descripcion": "Para el frio y el Invierno",
+      "id": 43
+    },
+    {
+      "urlImagen": "https://images2.imgbox.com/b6/e7/6NFBFIqj_o.jpg",
+      "categoriaId": 1,
+      "nombre": "Pijama verde menta con flores",
+      "precio": "75000",
+      "descripcion": "Una tela muy suave y comoda",
+      "id": 45
+    },
+    {
+      "urlImagen": "https://images2.imgbox.com/fb/9d/FPacFDeH_o.jpg",
+      "categoriaId": 1,
+      "nombre": "Pijama verde franela",
+      "precio": "50000",
+      "descripcion": "Muy comoda",
+      "id": 46
+    },
+    {
+      "urlImagen": "https://images2.imgbox.com/e1/7d/9u5Gf5es_o.jpg",
+      "categoriaId": 2,
+      "nombre": "Pijama Gozilita Rosado",
+      "precio": "57000",
+      "descripcion": "Para lo dias mas calurosos",
+      "id": 48
+    },
+    {
+      "urlImagen": "https://images2.imgbox.com/9b/e7/IFj2kNFz_o.jpg",
+      "categoriaId": 2,
+      "nombre": "Pijama de colores",
+      "precio": "68000",
+      "descripcion": "Para el verano",
+      "id": 49
+    },
+    {
+      "urlImagen": "https://images2.imgbox.com/22/63/sfqvLm9n_o.jpg",
+      "categoriaId": 1,
+      "nombre": "Pijama Beige",
+      "precio": "45000",
+      "descripcion": "Para el verano",
+      "id": 51
+    },
+    {
+      "id": 52
+    },
+    {
+      "urlImagen": "https://images2.imgbox.com/a2/82/65aMwPPr_o.jpg",
+      "categoriaId": 3,
+      "nombre": "Pijama Negra de oso",
+      "precio": "92000",
+      "descripcion": "Para el invierno y dias frios",
+      "id": 1
+    },
+    {
+      "urlImagen": "https://images2.imgbox.com/47/69/oMM60XSv_o.jpg",
+      "categoriaId": 3,
+      "nombre": "Pijama Azul Oscuro",
+      "precio": "32000",
+      "descripcion": "Para la primavera",
+      "id": 53
+    },
+    {
+      "urlImagen": "https://images2.imgbox.com/f3/83/6iJwpl0W_o.jpg",
+      "categoriaId": 3,
+      "nombre": "Pijama Roja Dulce Abrigo",
+      "precio": "78000",
+      "descripcion": "Para el Invierno",
+      "id": 54
+    },
+    {
+      "urlImagen": "https://images2.imgbox.com/81/75/xV4LNmGM_o.jpg",
+      "categoriaId": 1,
+      "nombre": "Pijama Dulce abrigo",
+      "precio": "75000",
+      "descripcion": "Para el invierno y dias frios",
+      "id": 55
+    },
+    {
+      "urlImagen": "https://images2.imgbox.com/2b/08/IpCH6L4g_o.jpg",
+      "categoriaId": 1,
+      "nombre": "Pijama Azul Dulce abrigo",
+      "precio": "77000",
+      "descripcion": "Para el frio y el Invierno",
+      "id": 56
+    },
+    {
+      "urlImagen": "https://images2.imgbox.com/fa/51/FfyH4q0A_o.jpg",
+      "categoriaId": 2,
+      "nombre": "Pijama Blanca",
+      "precio": "49000",
+      "descripcion": "Paa noches muy calurosas",
+      "id": 57
+    },
+    {
+      "urlImagen": "https://images2.imgbox.com/e7/df/7ykc3ULa_o.jpg",
+      "categoriaId": 3,
+      "nombre": "Pijama pantalón a cuadros",
+      "precio": "76000",
+      "descripcion": "Franela para el Invierno",
+      "id": 58
+    },
+    {
+      "urlImagen": "https://images2.imgbox.com/9f/f4/7uYUkbEq_o.jpg",
+      "categoriaId": 1,
+      "nombre": "Pijama franela Beige ",
+      "precio": "82000",
+      "descripcion": "Para el verano",
+      "id": 59
+    },
+    {
+      "urlImagen": "https://images2.imgbox.com/ac/e2/9jJnpase_o.jpg",
+      "categoriaId": 2,
+      "nombre": "Pijama estrellas",
+      "precio": "34000",
+      "descripcion": "Franela muy comoda",
+      "id": 60
+    },
+    {
+      "urlImagen": "https://images2.imgbox.com/8b/3b/AWeeg0kp_o.jpg",
+      "categoriaId": 3,
+      "nombre": "Pijama seda verde",
+      "precio": "98000",
+      "descripcion": "Para el verano",
+      "id": 61
+    },
+    {
+      "urlImagen": "https://images2.imgbox.com/cd/f1/kyUav3Yp_o.jpg",
+      "categoriaId": 4,
+      "nombre": "Pijama Luna Oso",
+      "precio": "65000",
+      "descripcion": "En algodón Para el verano",
+      "id": 62
+    },
+    {
+      "urlImagen": "https://images2.imgbox.com/73/f4/OwW3jpw5_o.jpg",
+      "categoriaId": 4,
+      "nombre": "Pijama Azul so Koala",
+      "precio": "56700",
+      "descripcion": "Algodon para el verano",
+      "id": 63
+    },
+    {
+      "urlImagen": "https://images2.imgbox.com/c1/41/58LjRgn8_o.jpg",
+      "categoriaId": 4,
+      "nombre": "Pijama Gris Azul on estrellas",
+      "precio": "78000",
+      "descripcion": "Para el verano Algodon",
+      "id": 64
+    },
+    {
+      "urlImagen": "https://images2.imgbox.com/eb/2d/U4i9J8g6_o.jpg",
+      "categoriaId": 4,
+      "nombre": "Pijama Gris Oscuro",
+      "precio": "67000",
+      "descripcion": "pijama Gris oscuro para el verano",
+      "id": 65
+    },
+    {
+      "urlImagen": "https://images2.imgbox.com/c9/b6/DrsjHaqx_o.jpg",
+      "categoriaId": 4,
+      "nombre": "Pijama Dino verde Botalla",
+      "precio": "68000",
+      "descripcion": "Para el verano Algodon",
+      "id": 66
+    },
+    {
+      "urlImagen": "https://images2.imgbox.com/a7/62/SJrgC4QV_o.jpg",
+      "categoriaId": 4,
+      "nombre": "Pijama amarilla Dino ",
+      "precio": "59000",
+      "descripcion": "Algodón para el verano",
+      "id": 67
+    }
+  ],
+  "carrito": [
+    {},
+    {
+      "id": 1,
+      "urlImagen": "https://st2.depositphotos.com/1538226/5940/i/450/depositphotos_59402675-stock-photo-winter-snowmen-family-against-blue.jpg",
+      "nombre": "Gato",
+      "precio": "$29.99",
+      "categoriaId": 3
+    },
+    {
+      "id": 2
+    },
+    {
+      "id": 3
+    },
+    {
+      "id": 4
+    },
+    {
+      "id": 37,
+      "urlImagen": "https://img.freepik.com/fotos-premium/fondos-pantalla-muneco-nieve-iphone-android-mejores-fondos-pantalla-alta-definicion-iphone-android-fondo-pantalla-muneco-nieve-fondo-pantalla-muneco-nieve-fondo-pantalla-muneco-nieve_917506-1922.jpg?w=2000",
+      "nombre": "muñeco de nieve muy gordo",
+      "precio": "200000",
+      "categoriaId": 2
+    },
+    {
+      "id": 45,
+      "urlImagen": "https://previews.123rf.com/images/tatyanagl/tatyanagl1610/tatyanagl161000216/67092021-mu%C3%B1eco-de-nieve-sobre-la-nieve-invierno-copo-de-wiht.jpg",
+      "nombre": "muñeco de nieve amigos",
+      "precio": "123456",
+      "categoriaId": 1
+    },
+    {
+      "id": 38,
+      "urlImagen": "https://img.freepik.com/fotos-premium/pc-invierno-nieve-temporada-muneco-nieve-modelo-3d-navidad-muneco-nieve-papel-tapiz-ilustracion-fondo_917506-953.jpg?w=2000",
+      "nombre": "muñeco de nieve cantando",
+      "precio": "345777777",
+      "categoriaId": 1
+    },
+    {
+      "id": 47,
+      "urlImagen": "https://besthqwallpapers.com/Uploads/23-10-2018/69644/thumb2-snowman-winter-snow-new-year-snowmen.jpg",
+      "nombre": "muñeco de nieve con guantes",
+      "precio": "123456",
+      "categoriaId": 2
+    },
+    {
+      "id": 32,
+      "urlImagen": "https://media.istockphoto.com/id/1180218723/es/v%C3%ADdeo/3d-mu%C3%B1eco-de-nieve-mirando-por-la-pared-sosteniendo-bandera-en-blanco-parpadeando-y-sonriendo.jpg?s=640x640&k=20&c=Ks1seh2aRClwYNQrtvumCLdkEOvtGkImYK7LHPl99q0=",
+      "nombre": "muñeco de nieve miron",
+      "precio": "100000",
+      "categoriaId": 1
+    },
+    {
+      "id": 53,
+      "urlImagen": "https://i.pinimg.com/550x/a8/03/12/a80312f0b85d680f4c76612f89291e42.jpg",
+      "nombre": "muñeco triste",
+      "precio": "32000",
+      "categoriaId": 3
+    },
+    {
+      "id": 31,
+      "urlImagen": "https://e1.pxfuel.com/desktop-wallpaper/581/835/desktop-wallpaper-2-cute-anime-baby-anime-doll-cute.jpg",
+      "nombre": "muñeca anime muy bonita",
+      "precio": "12000",
+      "categoriaId": 1
+    },
+    {
+      "id": 36,
+      "urlImagen": "https://i.pinimg.com/originals/fa/b2/71/fab271fd1a307569c42bb94513aef56d.png",
+      "nombre": "muñeco de nieve nevando",
+      "precio": "470000",
+      "categoriaId": 2
+    },
+    {
+      "id": 43,
+      "urlImagen": "https://m.media-amazon.com/images/I/71Wman90oDS._AC_UF1000,1000_QL80_.jpg",
+      "nombre": "muñeca china",
+      "precio": "123456",
+      "categoriaId": 3
+    },
+    {
+      "id": 42,
+      "urlImagen": "https://i.pinimg.com/736x/55/bf/86/55bf86467c7c24a3d2d652ce39131012.jpg",
+      "nombre": "muñeca anime muy bonita",
+      "precio": "56789",
+      "categoriaId": 3
+    }
+  ]
+}

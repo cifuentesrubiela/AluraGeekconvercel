@@ -1,0 +1,49 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "nombre": "admin",
+      "correo": "usuario1@example.com",
+      "contrasena": "123",
+      "rol": "admin"
+    },
+    {
+      "id": 2,
+      "nombre": "usuario",
+      "correo": "usuario2@example.com",
+      "contrasena": "456",
+      "rol": "usuario"
+    }
+  ],
+  "categorias": [
+    {
+      "id": 1,
+      "nombre": "PIJAMAS DAMA"
+    },
+    {
+      "id": 2,
+      "nombre": "PIJAMAS NIÑA"
+    },
+    {
+      "id": 3,
+      "nombre": "PIJAMAS HOMBRE"
+    },
+    {
+      "id": 3,
+      "nombre": "PIJAMAS NIÑO"
+    }
+  ],
+  "productos": [
+    
+  ],
+  "carrito": [
+    {
+      "id": 1,
+      "urlImagen": "https://st2.depositphotos.com/1538226/5940/i/450/depositphotos_59402675-stock-photo-winter-snowmen-family-against-blue.jpg",
+      "nombre": "Gato",
+      "precio": "$29.99",
+      "categoriaId": 3
+    },
+    
+  ]
+}

@@ -1,0 +1,18 @@
+.nav_producto {
+    display: flex;
+    justify-content: left;
+    margin-top: 20px;
+    margin-left: 145px;
+}
+
+.boton-producto {
+    margin-right: 40px;
+    padding: 10px 20px;
+    background-color:var(--color-principal); /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+.boton-producto:hover{
+    background-color: #45a049; /* Color de fondo del botón al pasar el cursor */
+}

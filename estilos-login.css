@@ -1,0 +1,41 @@
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.datos_login {
+    width: 423px;
+    height: 291px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    color: var(--color-logo-b);
+}
+
+.datos_login .input-correo,
+.datos_login .input-password {
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 410px;
+    border: none;
+    outline: none;
+}
+.input-correo,
+.input-password {
+    box-shadow: 0px 2px 0px 0px #ccc;
+    resize: none;
+}
+.datos_login button {
+    width: 423px;
+    height: 62px;
+    padding: 8px 15px;
+    background-color: var(--color-principal);
+    font-size: 18px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+   
+}
+

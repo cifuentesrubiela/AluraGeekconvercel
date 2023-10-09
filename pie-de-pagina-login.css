@@ -1,0 +1,81 @@
+/* Estilos para la sección del pie de página */
+.footer-section-login {
+
+    display: flex;
+    justify-content: space-between;
+    gap: 250px;
+    background-color: #f2f2f2;
+    color:var(--color-principal);
+    padding: 164px;
+  }
+
+  /* Estilos para el logotipo */
+  .footer-logo-login {
+    display: flex;
+    align-items: center;
+    font-size: 33px;
+    width: 50px;
+    height: 50px;
+   
+   
+  }
+
+  /* Estilos para las etiquetas */
+  .footer-links-login {
+    width: 176px;
+    height: 234px;
+    font-size: 16px;
+    font-family: raleway;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+   
+    
+  }
+
+  .footer-link-login {
+
+    color: #464646;
+    margin-bottom: 10px;
+    text-decoration: none;
+  
+  }
+
+  /* Estilos para el formulario de contacto */
+  .contact-form-login {
+    width: 560px;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color:var(--color-logo-b);
+  }
+
+  .contact-form-login input,.contact-form-login textarea {
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 560px;
+    border: none;
+    outline: none;
+  }
+  .input-nombre-login,.textarea-mensaje-login {
+    box-shadow: 0px 2px 0px 0px #ccc;
+    resize: none; 
+   
+  }
+  
+
+  .contact-form-login button {
+    padding: 8px 15px;
+    background-color: var(--color-principal);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    
+  }
+  .desarrollador-login {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
