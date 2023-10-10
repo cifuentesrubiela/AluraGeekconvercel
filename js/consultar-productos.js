@@ -112,11 +112,12 @@ function crearTarjetaDeProducto(producto) {
 const loginButtons = document.querySelectorAll(".login-btn");
 loginButtons.forEach((button) => {
   button.addEventListener("click", () => {
-    window.location.href = "../login.html";
+    // window.location.href = "../login.html";
+     window.location.href = "login.html";
   });
 });
 
 function redirigirALogin() {
-  window.location.href = "../login.html";
+  window.location.href = "login.html";
 }
 
