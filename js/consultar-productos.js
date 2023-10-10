@@ -109,15 +109,21 @@ function crearTarjetaDeProducto(producto) {
   return tarjetaProducto;
 }
 
-const loginButtons = document.querySelectorAll(".login-btn");
-loginButtons.forEach((button) => {
-  button.addEventListener("click", () => {
-    // window.location.href = "../login.html";
-     window.location.href = "login.html";
-  });
-});
+// const loginButtons = document.querySelectorAll(".login-btn");
+// loginButtons.forEach((button) => {
+//   button.addEventListener("click", () => {
+//     window.location.href = "../login.html";
+     
+//   });
+// });
 
-function redirigirALogin() {
-  window.location.href = "login.html";
-}
+// function redirigirALogin() {
+//   window.location.href = "login.html";
+// }
+const loginButton = document.querySelector(".login-btn"); // Reemplaza con el selector adecuado
+
+// Agrega un evento de clic al botón de inicio de sesión
+loginButton.addEventListener("click", () => {
+  window.location.href = "../login.html"; // Cambia la URL a la página de inicio de sesión
+});
 
