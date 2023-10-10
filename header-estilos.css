@@ -8,7 +8,7 @@ header {
 img {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Ajustar la imagen al tamaño del contenedor */
+    object-fit: cover; 
 }
 .content-container {
     position: absolute;
