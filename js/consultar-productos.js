@@ -109,21 +109,19 @@ function crearTarjetaDeProducto(producto) {
   return tarjetaProducto;
 }
 
-// const loginButtons = document.querySelectorAll(".login-btn");
-// loginButtons.forEach((button) => {
-//   button.addEventListener("click", () => {
-//     window.location.href = "../login.html";
-     
-//   });
-// });
+// Crear el botón "Login"
+const loginButton = document.createElement("button");
+loginButton.textContent = "Login";
+loginButton.classList.add("login-btn"); // Agregar la clase "login-btn" para estilos
 
-// function redirigirALogin() {
-//   window.location.href = "login.html";
-// }
-const loginButton = document.querySelector(".login-btn"); // Reemplaza con el selector adecuado
-
-// Agrega un evento de clic al botón de inicio de sesión
+// Agregar un evento de clic al botón para redirigir a login.html
 loginButton.addEventListener("click", () => {
-  window.location.href = "../login.html"; // Cambia la URL a la página de inicio de sesión
+  window.location.href = "login.html"; // Redirigir a la página de inicio de sesión
 });
+
+// Obtener el contenedor donde deseas agregar el botón (puedes reemplazar ".nav" con el selector adecuado)
+const navContainer = document.querySelector(".barranavegacion");
+
+// Agregar el botón al contenedor
+navContainer.appendChild(loginButton);
 
